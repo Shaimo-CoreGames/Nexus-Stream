@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/786/Desktop/Nexus-Stream/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/nexus_cruncher.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\nexus_cruncher.dir\\main.cpp.obj -c C:\\Users\\786\\Desktop\\Nexus-Stream\\cruncher\\main.cpp",
+  "file": "C:/Users/786/Desktop/Nexus-Stream/cruncher/main.cpp",
+  "output": "CMakeFiles/nexus_cruncher.dir/main.cpp.obj"
+}
+]

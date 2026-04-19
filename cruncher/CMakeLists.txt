@@ -3,9 +3,11 @@ project(NexusCruncher)
 
 set(CMAKE_CXX_STANDARD 17)
 
-# Find Redis++ and Hiredis (You must have these installed)
-find_package(redis++ REQUIRED)
-find_package(hiredis REQUIRED)
+# vcpkg toolchain handles finding these
+find_package(redis++ CONFIG REQUIRED)
+find_package(nlohmann_json CONFIG REQUIRED)
 
 add_executable(nexus_cruncher main.cpp)
-target_link_libraries(nexus_cruncher redis++ hiredis)
+
+# Use the specific targets provided by vcpkg
+target_link_libraries(nexus_cruncher PRIVATE redis++::redis++ nlohmann_json::nlohmann_json)

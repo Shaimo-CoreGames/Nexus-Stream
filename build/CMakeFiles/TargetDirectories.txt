@@ -1,0 +1,3 @@
+C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/nexus_cruncher.dir
+C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/edit_cache.dir
+C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/rebuild_cache.dir

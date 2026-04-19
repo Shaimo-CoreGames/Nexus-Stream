@@ -1,0 +1,1 @@
+ "C:/vcpkg/installed/x64-mingw-dynamic/debug/lib/libredis++.dll.a" "C:/vcpkg/installed/x64-mingw-dynamic/debug/lib/libhiredisd.dll.a" -lws2_32 -lcrypt32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
