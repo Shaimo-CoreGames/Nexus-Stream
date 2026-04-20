@@ -22,7 +22,8 @@ engine = create_engine(
 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
-REDIS_URL = "rediss://default:gQAAAAAAAVBjAAIncDFlNzgwZDQ2MjNkYjA0MGJlOTY5YjFiMzFjOTMwN2QxYnAxODYxMTU@amazing-monkey-86115.upstash.io:6379" 
+# REDIS_URL = "rediss://default:gQAAAAAAAVBjAAIncDFlNzgwZDQ2MjNkYjA0MGJlOTY5YjFiMzFjOTMwN2QxYnAxODYxMTU@amazing-monkey-86115.upstash.io:6379"
+REDIS_URL = "redis://127.0.0.1:6379" 
 r = redis.from_url(REDIS_URL, decode_responses=True)
 
 
