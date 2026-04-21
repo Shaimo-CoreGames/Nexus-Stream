@@ -1,7 +1,7 @@
 #include <sw/redis++/redis++.h>
 #include <nlohmann/json.hpp>
 #include <iostream>
-#include <string>
+#include <unordered_map> // New: For storing totals
 
 using namespace sw::redis;
 using json = nlohmann::json;
@@ -10,47 +10,43 @@ int main()
 {
     try
     {
-        // Connect to Docker Redis
         auto redis = Redis("tcp://127.0.0.1:6379");
-        std::cout << "--- Nexus-Cruncher is LIVE and listening for events ---" << std::endl;
+        std::cout << "--- Day 7: Nexus-Aggregator is LIVE ---" << std::endl;
+
+        // Our "In-Memory Database"
+        // Key: Tenant ID, Value: Total Event Count
+        std::unordered_map<int, int> tenant_counts;
 
         while (true)
         {
-            // BRPOP: Blocks until a message arrives in "ingest_queue"
-            // It returns a pair: {queue_name, message}
             auto item = redis.brpop("ingest_queue", 0);
 
-            // ... inside your while loop ...
-            // ... inside your while loop ...
             if (item)
             {
-                std::string raw_json = item->second;
+                json data = json::parse(item->second);
 
-                // Parse the JSON
-                json data = json::parse(raw_json);
-
-                // SAFER WAY TO READ:
-                // We check if "type" exists and is actually a string before using it
-                if (data.contains("type") && !data["type"].is_null())
+                // ... inside your while loop ...
+                if (data.contains("type"))
                 {
+                    std::string tenant_id_str = std::to_string(data.value("tenant_id", 0));
 
-                    std::string event_name = data["type"];   // Use "type" to match Python
-                    int tenant = data.value("tenant_id", 0); // Default to 0 if missing
+                    // THE NEW PERSISTENT STEP:
+                    // HINCRBY tells Redis: "Go to the 'tenant_totals' hash,
+                    // find this tenant_id, and add 1 to its value."
+                    redis.hincrby("tenant_totals", tenant_id_str, 1);
 
-                    std::cout << "[SUCCESS] Processed: " << event_name
-                              << " | Tenant: " << tenant << std::endl;
-                }
-                else
-                {
-                    std::cout << "[ERROR] Received data, but 'type' field is missing or null!" << std::endl;
-                    std::cout << "Raw Data: " << raw_json << std::endl;
+                    // Get the new total back from Redis to display it
+                    auto new_total = redis.hget("tenant_totals", tenant_id_str);
+
+                    std::cout << "[PERSISTED] Tenant " << tenant_id_str
+                              << " now has: " << (new_total ? *new_total : "0") << " events." << std::endl;
                 }
             }
         }
     }
     catch (const std::exception &e)
     {
-        std::cerr << "CRITICAL ERROR: " << e.what() << std::endl;
+        std::cerr << "ERROR: " << e.what() << std::endl;
         return 1;
     }
     return 0;
