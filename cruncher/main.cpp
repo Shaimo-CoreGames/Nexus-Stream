@@ -1,52 +1,87 @@
 #include <sw/redis++/redis++.h>
 #include <nlohmann/json.hpp>
+#include <libpq-fe.h> // Core Postgres Header
 #include <iostream>
-#include <unordered_map> // New: For storing totals
+#include <string>
 
 using namespace sw::redis;
 using json = nlohmann::json;
+
+void sync_to_postgres(Redis &redis, PGconn *pg_conn)
+{
+    std::unordered_map<std::string, std::string> stats;
+    redis.hgetall("tenant_totals", std::inserter(stats, stats.begin()));
+
+    if (stats.empty())
+        return;
+
+    for (auto const &[tenant_id, count] : stats)
+    {
+        // UPSERT query using core libpq
+        std::string sql =
+            "INSERT INTO tenant_analytics (tenant_id, total_events) "
+            "VALUES (" +
+            tenant_id + ", " + count + ") "
+                                       "ON CONFLICT (tenant_id) DO UPDATE SET "
+                                       "total_events = EXCLUDED.total_events, "
+                                       "last_updated = CURRENT_TIMESTAMP;";
+
+        PGresult *res = PQexec(pg_conn, sql.c_str());
+
+        if (PQresultStatus(res) != PGRES_COMMAND_OK)
+        {
+            std::cerr << "SQL Error: " << PQerrorMessage(pg_conn) << std::endl;
+        }
+        PQclear(res);
+    }
+    std::cout << "[DATABASE] Synced " << stats.size() << " tenants to PostgreSQL." << std::endl;
+}
 
 int main()
 {
     try
     {
         auto redis = Redis("tcp://127.0.0.1:6379");
-        std::cout << "--- Day 7: Nexus-Aggregator is LIVE ---" << std::endl;
 
-        // Our "In-Memory Database"
-        // Key: Tenant ID, Value: Total Event Count
-        std::unordered_map<int, int> tenant_counts;
+        // Connect to Postgres
+        const char *conninfo = "host=127.0.0.1 port=5432 dbname=postgres user=postgres password=mysecret";
+        PGconn *pg_conn = PQconnectdb(conninfo);
 
+        if (PQstatus(pg_conn) != CONNECTION_OK)
+        {
+            std::cerr << "Postgres Connection Failed: " << PQerrorMessage(pg_conn) << std::endl;
+            return 1;
+        }
+
+        std::cout << "--- Nexus-Cruncher: Redis + Postgres Bridge Active ---" << std::endl;
+
+        int processed_count = 0;
         while (true)
         {
             auto item = redis.brpop("ingest_queue", 0);
-
             if (item)
             {
                 json data = json::parse(item->second);
-
-                // ... inside your while loop ...
-                if (data.contains("type"))
+                if (data.contains("tenant_id"))
                 {
-                    std::string tenant_id_str = std::to_string(data.value("tenant_id", 0));
+                    std::string t_id = std::to_string(data.value("tenant_id", 0));
+                    redis.hincrby("tenant_totals", t_id, 1);
+                    processed_count++;
 
-                    // THE NEW PERSISTENT STEP:
-                    // HINCRBY tells Redis: "Go to the 'tenant_totals' hash,
-                    // find this tenant_id, and add 1 to its value."
-                    redis.hincrby("tenant_totals", tenant_id_str, 1);
-
-                    // Get the new total back from Redis to display it
-                    auto new_total = redis.hget("tenant_totals", tenant_id_str);
-
-                    std::cout << "[PERSISTED] Tenant " << tenant_id_str
-                              << " now has: " << (new_total ? *new_total : "0") << " events." << std::endl;
+                    // Sync every 5 events for testing
+                    if (processed_count >= 5)
+                    {
+                        sync_to_postgres(redis, pg_conn);
+                        processed_count = 0;
+                    }
                 }
             }
         }
+        PQfinish(pg_conn);
     }
     catch (const std::exception &e)
     {
-        std::cerr << "ERROR: " << e.what() << std::endl;
+        std::cerr << "Error: " << e.what() << std::endl;
         return 1;
     }
     return 0;

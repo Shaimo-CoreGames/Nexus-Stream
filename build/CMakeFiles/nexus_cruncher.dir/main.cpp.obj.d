@@ -352,4 +352,5 @@ CMakeFiles/nexus_cruncher.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/any \
  C:/vcpkg/installed/x64-mingw-dynamic/include/nlohmann/detail/macro_unscope.hpp \
  C:/vcpkg/installed/x64-mingw-dynamic/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
+ C:/pgsql/include/libpq-fe.h C:/pgsql/include/postgres_ext.h \
  C:/msys64/ucrt64/include/c++/14.2.0/iostream

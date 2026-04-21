@@ -95,8 +95,6 @@ nexus_cruncher_EXTERNAL_OBJECTS =
 
 nexus_cruncher.exe: CMakeFiles/nexus_cruncher.dir/main.cpp.obj
 nexus_cruncher.exe: CMakeFiles/nexus_cruncher.dir/build.make
-nexus_cruncher.exe: C:/vcpkg/installed/x64-mingw-dynamic/debug/lib/libredis++.dll.a
-nexus_cruncher.exe: C:/vcpkg/installed/x64-mingw-dynamic/debug/lib/libhiredisd.dll.a
 nexus_cruncher.exe: CMakeFiles/nexus_cruncher.dir/linkLibs.rsp
 nexus_cruncher.exe: CMakeFiles/nexus_cruncher.dir/objects1.rsp
 nexus_cruncher.exe: CMakeFiles/nexus_cruncher.dir/link.txt

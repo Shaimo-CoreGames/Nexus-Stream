@@ -61,6 +61,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/REGISTRY-NOTFOUND/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/MinGW/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/MinGW/bin/"
@@ -99,6 +100,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/REGISTRY-NOTFOUND/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/MinGW/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/MinGW/bin/"
@@ -137,6 +139,7 @@ events:
       - "C:/Users/786/AppData/Roaming/npm/"
       - "C:/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/"
+      - "C:/pgsql/bin/"
       - "/REGISTRY-NOTFOUND/bin/"
       - "c:/MinGW/bin/"
       - "/MinGW/bin/"
@@ -210,6 +213,8 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/nodejs/node_modules/npm/bin/mingw32-make.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/mingw32-make.exe.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/mingw32-make.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/mingw32-make.exe.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/mingw32-make.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/REGISTRY-NOTFOUND/bin/mingw32-make.exe.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/REGISTRY-NOTFOUND/bin/mingw32-make.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/MinGW/bin/mingw32-make.exe.com"
@@ -286,6 +291,8 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/nodejs/node_modules/npm/bin/mingw32-make.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/mingw32-make.exe.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/mingw32-make.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/mingw32-make.exe.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/mingw32-make.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/REGISTRY-NOTFOUND/bin/mingw32-make.exe.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/REGISTRY-NOTFOUND/bin/mingw32-make.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/MinGW/bin/mingw32-make.exe.com"
@@ -347,6 +354,7 @@ events:
         - "C:\\Users\\786\\AppData\\Roaming\\npm"
         - "C:/Program Files/nodejs/node_modules/npm/bin"
         - "C:\\vcpkg"
+        - "C:/pgsql/bin"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-mingw-dynamic/debug;C:/vcpkg/installed/x64-mingw-dynamic"
   -
     kind: "find-v1"
@@ -408,6 +416,7 @@ events:
         - "C:\\Users\\786\\AppData\\Roaming\\npm"
         - "C:/Program Files/nodejs/node_modules/npm/bin"
         - "C:\\vcpkg"
+        - "C:/pgsql/bin"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-mingw-dynamic/debug;C:/vcpkg/installed/x64-mingw-dynamic"
   -
     kind: "message-v1"
@@ -478,6 +487,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/usr/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -505,6 +515,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
       - "C:/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -532,6 +543,7 @@ events:
       - "C:/Users/786/AppData/Roaming/npm/"
       - "C:/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/"
+      - "C:/pgsql/bin/"
     searched_directories:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/ar.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/ar.exe"
@@ -614,6 +626,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/ar.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/ar.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/ar"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/ar.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/ar.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/ar"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/ar.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/ar.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/ar"
@@ -695,6 +710,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/ar.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/ar.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/ar"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/ar.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/ar.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/ar"
       - "C:/msys64/ucrt64/bin/ar.com"
     found: "C:/msys64/ucrt64/bin/ar.exe"
     search_context:
@@ -734,6 +752,7 @@ events:
         - "C:\\Users\\786\\AppData\\Roaming\\npm"
         - "C:/Program Files/nodejs/node_modules/npm/bin"
         - "C:\\vcpkg"
+        - "C:/pgsql/bin"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-mingw-dynamic/debug;C:/vcpkg/installed/x64-mingw-dynamic"
   -
     kind: "find-v1"
@@ -782,6 +801,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/usr/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -809,6 +829,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
       - "C:/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -836,6 +857,7 @@ events:
       - "C:/Users/786/AppData/Roaming/npm/"
       - "C:/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/"
+      - "C:/pgsql/bin/"
     searched_directories:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/ranlib.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/ranlib.exe"
@@ -918,6 +940,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/ranlib.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/ranlib.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/ranlib"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/ranlib.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/ranlib.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/ranlib"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/ranlib.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/ranlib.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/ranlib"
@@ -999,6 +1024,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/ranlib.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/ranlib.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/ranlib"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/ranlib.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/ranlib.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/ranlib"
       - "C:/msys64/ucrt64/bin/ranlib.com"
     found: "C:/msys64/ucrt64/bin/ranlib.exe"
     search_context:
@@ -1038,6 +1066,7 @@ events:
         - "C:\\Users\\786\\AppData\\Roaming\\npm"
         - "C:/Program Files/nodejs/node_modules/npm/bin"
         - "C:\\vcpkg"
+        - "C:/pgsql/bin"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-mingw-dynamic/debug;C:/vcpkg/installed/x64-mingw-dynamic"
   -
     kind: "find-v1"
@@ -1086,6 +1115,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/usr/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -1113,6 +1143,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
       - "C:/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -1140,6 +1171,7 @@ events:
       - "C:/Users/786/AppData/Roaming/npm/"
       - "C:/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/"
+      - "C:/pgsql/bin/"
     searched_directories:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/strip.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/strip.exe"
@@ -1222,6 +1254,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/strip.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/strip.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/strip"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/strip.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/strip.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/strip"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/strip.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/strip.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/strip"
@@ -1303,6 +1338,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/strip.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/strip.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/strip"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/strip.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/strip.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/strip"
       - "C:/msys64/ucrt64/bin/strip.com"
     found: "C:/msys64/ucrt64/bin/strip.exe"
     search_context:
@@ -1342,6 +1380,7 @@ events:
         - "C:\\Users\\786\\AppData\\Roaming\\npm"
         - "C:/Program Files/nodejs/node_modules/npm/bin"
         - "C:\\vcpkg"
+        - "C:/pgsql/bin"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-mingw-dynamic/debug;C:/vcpkg/installed/x64-mingw-dynamic"
   -
     kind: "find-v1"
@@ -1390,6 +1429,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/usr/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -1417,6 +1457,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
       - "C:/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -1444,6 +1485,7 @@ events:
       - "C:/Users/786/AppData/Roaming/npm/"
       - "C:/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/"
+      - "C:/pgsql/bin/"
     searched_directories:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/ld.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/ld.exe"
@@ -1526,6 +1568,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/ld.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/ld.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/ld"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/ld.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/ld.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/ld"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/ld.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/ld.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/ld"
@@ -1607,6 +1652,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/ld.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/ld.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/ld"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/ld.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/ld.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/ld"
       - "C:/msys64/ucrt64/bin/ld.com"
     found: "C:/msys64/ucrt64/bin/ld.exe"
     search_context:
@@ -1646,6 +1694,7 @@ events:
         - "C:\\Users\\786\\AppData\\Roaming\\npm"
         - "C:/Program Files/nodejs/node_modules/npm/bin"
         - "C:\\vcpkg"
+        - "C:/pgsql/bin"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-mingw-dynamic/debug;C:/vcpkg/installed/x64-mingw-dynamic"
   -
     kind: "find-v1"
@@ -1694,6 +1743,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/usr/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -1721,6 +1771,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
       - "C:/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -1748,6 +1799,7 @@ events:
       - "C:/Users/786/AppData/Roaming/npm/"
       - "C:/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/"
+      - "C:/pgsql/bin/"
     searched_directories:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/nm.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/nm.exe"
@@ -1830,6 +1882,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/nm.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/nm.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/nm"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/nm.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/nm.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/nm"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/nm.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/nm.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/nm"
@@ -1911,6 +1966,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/nm.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/nm.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/nm"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/nm.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/nm.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/nm"
       - "C:/msys64/ucrt64/bin/nm.com"
     found: "C:/msys64/ucrt64/bin/nm.exe"
     search_context:
@@ -1950,6 +2008,7 @@ events:
         - "C:\\Users\\786\\AppData\\Roaming\\npm"
         - "C:/Program Files/nodejs/node_modules/npm/bin"
         - "C:\\vcpkg"
+        - "C:/pgsql/bin"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-mingw-dynamic/debug;C:/vcpkg/installed/x64-mingw-dynamic"
   -
     kind: "find-v1"
@@ -1998,6 +2057,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/usr/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -2025,6 +2085,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
       - "C:/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -2052,6 +2113,7 @@ events:
       - "C:/Users/786/AppData/Roaming/npm/"
       - "C:/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/"
+      - "C:/pgsql/bin/"
     searched_directories:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/objdump.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/objdump.exe"
@@ -2134,6 +2196,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/objdump.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/objdump.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/objdump"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/objdump.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/objdump.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/objdump"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/objdump.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/objdump.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/objdump"
@@ -2215,6 +2280,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/objdump.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/objdump.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/objdump"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/objdump.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/objdump.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/objdump"
       - "C:/msys64/ucrt64/bin/objdump.com"
     found: "C:/msys64/ucrt64/bin/objdump.exe"
     search_context:
@@ -2254,6 +2322,7 @@ events:
         - "C:\\Users\\786\\AppData\\Roaming\\npm"
         - "C:/Program Files/nodejs/node_modules/npm/bin"
         - "C:\\vcpkg"
+        - "C:/pgsql/bin"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-mingw-dynamic/debug;C:/vcpkg/installed/x64-mingw-dynamic"
   -
     kind: "find-v1"
@@ -2302,6 +2371,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/usr/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -2329,6 +2399,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
       - "C:/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -2356,6 +2427,7 @@ events:
       - "C:/Users/786/AppData/Roaming/npm/"
       - "C:/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/"
+      - "C:/pgsql/bin/"
     searched_directories:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/objcopy.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/objcopy.exe"
@@ -2438,6 +2510,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/objcopy.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/objcopy.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/objcopy"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/objcopy.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/objcopy.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/objcopy"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/objcopy.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/objcopy.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/objcopy"
@@ -2519,6 +2594,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/objcopy.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/objcopy.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/objcopy"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/objcopy.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/objcopy.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/objcopy"
       - "C:/msys64/ucrt64/bin/objcopy.com"
     found: "C:/msys64/ucrt64/bin/objcopy.exe"
     search_context:
@@ -2558,6 +2636,7 @@ events:
         - "C:\\Users\\786\\AppData\\Roaming\\npm"
         - "C:/Program Files/nodejs/node_modules/npm/bin"
         - "C:\\vcpkg"
+        - "C:/pgsql/bin"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-mingw-dynamic/debug;C:/vcpkg/installed/x64-mingw-dynamic"
   -
     kind: "find-v1"
@@ -2606,6 +2685,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/usr/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -2633,6 +2713,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
       - "C:/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -2660,6 +2741,7 @@ events:
       - "C:/Users/786/AppData/Roaming/npm/"
       - "C:/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/"
+      - "C:/pgsql/bin/"
     searched_directories:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/readelf.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/readelf.exe"
@@ -2742,6 +2824,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/readelf.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/readelf.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/readelf"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/readelf.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/readelf.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/readelf"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/readelf.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/readelf.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/readelf"
@@ -2823,6 +2908,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/readelf.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/readelf.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/readelf"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/readelf.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/readelf.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/readelf"
       - "C:/msys64/ucrt64/bin/readelf.com"
     found: "C:/msys64/ucrt64/bin/readelf.exe"
     search_context:
@@ -2862,6 +2950,7 @@ events:
         - "C:\\Users\\786\\AppData\\Roaming\\npm"
         - "C:/Program Files/nodejs/node_modules/npm/bin"
         - "C:\\vcpkg"
+        - "C:/pgsql/bin"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-mingw-dynamic/debug;C:/vcpkg/installed/x64-mingw-dynamic"
   -
     kind: "find-v1"
@@ -2910,6 +2999,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/usr/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -2937,6 +3027,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
       - "C:/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -2964,6 +3055,7 @@ events:
       - "C:/Users/786/AppData/Roaming/npm/"
       - "C:/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/"
+      - "C:/pgsql/bin/"
     searched_directories:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/dlltool.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/dlltool.exe"
@@ -3046,6 +3138,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/dlltool.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/dlltool.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/dlltool"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/dlltool.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/dlltool.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/dlltool"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/dlltool.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/dlltool.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/dlltool"
@@ -3127,6 +3222,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/dlltool.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/dlltool.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/dlltool"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/dlltool.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/dlltool.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/dlltool"
       - "C:/msys64/ucrt64/bin/dlltool.com"
     found: "C:/msys64/ucrt64/bin/dlltool.exe"
     search_context:
@@ -3166,6 +3264,7 @@ events:
         - "C:\\Users\\786\\AppData\\Roaming\\npm"
         - "C:/Program Files/nodejs/node_modules/npm/bin"
         - "C:\\vcpkg"
+        - "C:/pgsql/bin"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-mingw-dynamic/debug;C:/vcpkg/installed/x64-mingw-dynamic"
   -
     kind: "find-v1"
@@ -3214,6 +3313,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/usr/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -3241,6 +3341,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
       - "C:/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -3268,6 +3369,7 @@ events:
       - "C:/Users/786/AppData/Roaming/npm/"
       - "C:/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/"
+      - "C:/pgsql/bin/"
     searched_directories:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/addr2line.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/addr2line.exe"
@@ -3350,6 +3452,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/addr2line.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/addr2line.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/addr2line"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/addr2line.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/addr2line.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/addr2line"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/addr2line.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/addr2line.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/addr2line"
@@ -3431,6 +3536,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/addr2line.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/addr2line.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/addr2line"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/addr2line.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/addr2line.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/addr2line"
       - "C:/msys64/ucrt64/bin/addr2line.com"
     found: "C:/msys64/ucrt64/bin/addr2line.exe"
     search_context:
@@ -3470,6 +3578,7 @@ events:
         - "C:\\Users\\786\\AppData\\Roaming\\npm"
         - "C:/Program Files/nodejs/node_modules/npm/bin"
         - "C:\\vcpkg"
+        - "C:/pgsql/bin"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-mingw-dynamic/debug;C:/vcpkg/installed/x64-mingw-dynamic"
   -
     kind: "find-v1"
@@ -3518,6 +3627,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/usr/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -3545,6 +3655,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
       - "C:/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -3572,6 +3683,7 @@ events:
       - "C:/Users/786/AppData/Roaming/npm/"
       - "C:/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/"
+      - "C:/pgsql/bin/"
     searched_directories:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/tapi.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/tapi.exe"
@@ -3654,6 +3766,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/tapi.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/tapi.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/tapi"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/tapi.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/tapi.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/tapi"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/tapi.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/tapi.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/tapi"
@@ -3735,6 +3850,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/tapi.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/tapi.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/tapi"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/tapi.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/tapi.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/tapi"
       - "C:/msys64/ucrt64/bin/tapi.com"
       - "C:/msys64/ucrt64/bin/tapi.exe"
       - "C:/msys64/ucrt64/bin/tapi"
@@ -3816,6 +3934,9 @@ events:
       - "C:/vcpkg/tapi.com"
       - "C:/vcpkg/tapi.exe"
       - "C:/vcpkg/tapi"
+      - "C:/pgsql/bin/tapi.com"
+      - "C:/pgsql/bin/tapi.exe"
+      - "C:/pgsql/bin/tapi"
     found: false
     search_context:
       CMAKE_PROGRAM_PATH:
@@ -3854,6 +3975,7 @@ events:
         - "C:\\Users\\786\\AppData\\Roaming\\npm"
         - "C:/Program Files/nodejs/node_modules/npm/bin"
         - "C:\\vcpkg"
+        - "C:/pgsql/bin"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-mingw-dynamic/debug;C:/vcpkg/installed/x64-mingw-dynamic"
   -
     kind: "find-v1"
@@ -3905,6 +4027,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/usr/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -3932,6 +4055,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
       - "C:/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -3959,6 +4083,7 @@ events:
       - "C:/Users/786/AppData/Roaming/npm/"
       - "C:/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/"
+      - "C:/pgsql/bin/"
     searched_directories:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ar-14.2.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ar-14.2.exe"
@@ -4041,6 +4166,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ar-14.2.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ar-14.2.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ar-14.2"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ar-14.2.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ar-14.2.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ar-14.2"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ar-14.2.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ar-14.2.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ar-14.2"
@@ -4122,6 +4250,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ar-14.2.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ar-14.2.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ar-14.2"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ar-14.2.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ar-14.2.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ar-14.2"
       - "C:/msys64/ucrt64/bin/gcc-ar-14.2.com"
       - "C:/msys64/ucrt64/bin/gcc-ar-14.2.exe"
       - "C:/msys64/ucrt64/bin/gcc-ar-14.2"
@@ -4203,6 +4334,9 @@ events:
       - "C:/vcpkg/gcc-ar-14.2.com"
       - "C:/vcpkg/gcc-ar-14.2.exe"
       - "C:/vcpkg/gcc-ar-14.2"
+      - "C:/pgsql/bin/gcc-ar-14.2.com"
+      - "C:/pgsql/bin/gcc-ar-14.2.exe"
+      - "C:/pgsql/bin/gcc-ar-14.2"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ar-14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ar-14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ar-14"
@@ -4284,6 +4418,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ar-14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ar-14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ar-14"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ar-14.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ar-14.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ar-14"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ar-14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ar-14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ar-14"
@@ -4365,6 +4502,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ar-14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ar-14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ar-14"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ar-14.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ar-14.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ar-14"
       - "C:/msys64/ucrt64/bin/gcc-ar-14.com"
       - "C:/msys64/ucrt64/bin/gcc-ar-14.exe"
       - "C:/msys64/ucrt64/bin/gcc-ar-14"
@@ -4446,6 +4586,9 @@ events:
       - "C:/vcpkg/gcc-ar-14.com"
       - "C:/vcpkg/gcc-ar-14.exe"
       - "C:/vcpkg/gcc-ar-14"
+      - "C:/pgsql/bin/gcc-ar-14.com"
+      - "C:/pgsql/bin/gcc-ar-14.exe"
+      - "C:/pgsql/bin/gcc-ar-14"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ar14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ar14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ar14"
@@ -4527,6 +4670,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ar14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ar14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ar14"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ar14.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ar14.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ar14"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ar14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ar14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ar14"
@@ -4608,6 +4754,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ar14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ar14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ar14"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ar14.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ar14.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ar14"
       - "C:/msys64/ucrt64/bin/gcc-ar14.com"
       - "C:/msys64/ucrt64/bin/gcc-ar14.exe"
       - "C:/msys64/ucrt64/bin/gcc-ar14"
@@ -4689,6 +4838,9 @@ events:
       - "C:/vcpkg/gcc-ar14.com"
       - "C:/vcpkg/gcc-ar14.exe"
       - "C:/vcpkg/gcc-ar14"
+      - "C:/pgsql/bin/gcc-ar14.com"
+      - "C:/pgsql/bin/gcc-ar14.exe"
+      - "C:/pgsql/bin/gcc-ar14"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ar.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ar.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ar"
@@ -4770,6 +4922,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ar.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ar.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ar"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ar.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ar.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ar"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ar.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ar.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ar"
@@ -4851,6 +5006,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ar.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ar.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ar"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ar.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ar.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ar"
       - "C:/msys64/ucrt64/bin/gcc-ar.com"
     found: "C:/msys64/ucrt64/bin/gcc-ar.exe"
     search_context:
@@ -4890,6 +5048,7 @@ events:
         - "C:\\Users\\786\\AppData\\Roaming\\npm"
         - "C:/Program Files/nodejs/node_modules/npm/bin"
         - "C:\\vcpkg"
+        - "C:/pgsql/bin"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-mingw-dynamic/debug;C:/vcpkg/installed/x64-mingw-dynamic"
   -
     kind: "find-v1"
@@ -4941,6 +5100,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/usr/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -4968,6 +5128,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
       - "C:/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -4995,6 +5156,7 @@ events:
       - "C:/Users/786/AppData/Roaming/npm/"
       - "C:/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/"
+      - "C:/pgsql/bin/"
     searched_directories:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ranlib-14.2.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ranlib-14.2.exe"
@@ -5077,6 +5239,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ranlib-14.2.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ranlib-14.2.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ranlib-14.2"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ranlib-14.2.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ranlib-14.2.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ranlib-14.2"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ranlib-14.2.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ranlib-14.2.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ranlib-14.2"
@@ -5158,6 +5323,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ranlib-14.2.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ranlib-14.2.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ranlib-14.2"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ranlib-14.2.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ranlib-14.2.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ranlib-14.2"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14.2.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14.2.exe"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14.2"
@@ -5239,6 +5407,9 @@ events:
       - "C:/vcpkg/gcc-ranlib-14.2.com"
       - "C:/vcpkg/gcc-ranlib-14.2.exe"
       - "C:/vcpkg/gcc-ranlib-14.2"
+      - "C:/pgsql/bin/gcc-ranlib-14.2.com"
+      - "C:/pgsql/bin/gcc-ranlib-14.2.exe"
+      - "C:/pgsql/bin/gcc-ranlib-14.2"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ranlib-14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ranlib-14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ranlib-14"
@@ -5320,6 +5491,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ranlib-14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ranlib-14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ranlib-14"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ranlib-14.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ranlib-14.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ranlib-14"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ranlib-14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ranlib-14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ranlib-14"
@@ -5401,6 +5575,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ranlib-14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ranlib-14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ranlib-14"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ranlib-14.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ranlib-14.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ranlib-14"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14.exe"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14"
@@ -5482,6 +5659,9 @@ events:
       - "C:/vcpkg/gcc-ranlib-14.com"
       - "C:/vcpkg/gcc-ranlib-14.exe"
       - "C:/vcpkg/gcc-ranlib-14"
+      - "C:/pgsql/bin/gcc-ranlib-14.com"
+      - "C:/pgsql/bin/gcc-ranlib-14.exe"
+      - "C:/pgsql/bin/gcc-ranlib-14"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ranlib14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ranlib14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ranlib14"
@@ -5563,6 +5743,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ranlib14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ranlib14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ranlib14"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ranlib14.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ranlib14.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ranlib14"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ranlib14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ranlib14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ranlib14"
@@ -5644,6 +5827,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ranlib14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ranlib14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ranlib14"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ranlib14.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ranlib14.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ranlib14"
       - "C:/msys64/ucrt64/bin/gcc-ranlib14.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib14.exe"
       - "C:/msys64/ucrt64/bin/gcc-ranlib14"
@@ -5725,6 +5911,9 @@ events:
       - "C:/vcpkg/gcc-ranlib14.com"
       - "C:/vcpkg/gcc-ranlib14.exe"
       - "C:/vcpkg/gcc-ranlib14"
+      - "C:/pgsql/bin/gcc-ranlib14.com"
+      - "C:/pgsql/bin/gcc-ranlib14.exe"
+      - "C:/pgsql/bin/gcc-ranlib14"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ranlib.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ranlib.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ranlib"
@@ -5806,6 +5995,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ranlib.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ranlib.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ranlib"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ranlib.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ranlib.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ranlib"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ranlib.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ranlib.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ranlib"
@@ -5887,6 +6079,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ranlib.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ranlib.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ranlib"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ranlib.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ranlib.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ranlib"
       - "C:/msys64/ucrt64/bin/gcc-ranlib.com"
     found: "C:/msys64/ucrt64/bin/gcc-ranlib.exe"
     search_context:
@@ -5926,6 +6121,7 @@ events:
         - "C:\\Users\\786\\AppData\\Roaming\\npm"
         - "C:/Program Files/nodejs/node_modules/npm/bin"
         - "C:\\vcpkg"
+        - "C:/pgsql/bin"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-mingw-dynamic/debug;C:/vcpkg/installed/x64-mingw-dynamic"
   -
     kind: "find-v1"
@@ -5987,6 +6183,7 @@ events:
         - "C:\\Users\\786\\AppData\\Roaming\\npm"
         - "C:/Program Files/nodejs/node_modules/npm/bin"
         - "C:\\vcpkg"
+        - "C:/pgsql/bin"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-mingw-dynamic/debug;C:/vcpkg/installed/x64-mingw-dynamic"
   -
     kind: "message-v1"
@@ -6060,6 +6257,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/usr/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -6087,6 +6285,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
       - "C:/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -6114,6 +6313,7 @@ events:
       - "C:/Users/786/AppData/Roaming/npm/"
       - "C:/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/"
+      - "C:/pgsql/bin/"
     searched_directories:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ar-14.2.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ar-14.2.exe"
@@ -6196,6 +6396,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ar-14.2.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ar-14.2.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ar-14.2"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ar-14.2.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ar-14.2.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ar-14.2"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ar-14.2.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ar-14.2.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ar-14.2"
@@ -6277,6 +6480,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ar-14.2.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ar-14.2.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ar-14.2"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ar-14.2.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ar-14.2.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ar-14.2"
       - "C:/msys64/ucrt64/bin/gcc-ar-14.2.com"
       - "C:/msys64/ucrt64/bin/gcc-ar-14.2.exe"
       - "C:/msys64/ucrt64/bin/gcc-ar-14.2"
@@ -6358,6 +6564,9 @@ events:
       - "C:/vcpkg/gcc-ar-14.2.com"
       - "C:/vcpkg/gcc-ar-14.2.exe"
       - "C:/vcpkg/gcc-ar-14.2"
+      - "C:/pgsql/bin/gcc-ar-14.2.com"
+      - "C:/pgsql/bin/gcc-ar-14.2.exe"
+      - "C:/pgsql/bin/gcc-ar-14.2"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ar-14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ar-14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ar-14"
@@ -6439,6 +6648,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ar-14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ar-14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ar-14"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ar-14.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ar-14.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ar-14"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ar-14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ar-14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ar-14"
@@ -6520,6 +6732,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ar-14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ar-14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ar-14"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ar-14.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ar-14.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ar-14"
       - "C:/msys64/ucrt64/bin/gcc-ar-14.com"
       - "C:/msys64/ucrt64/bin/gcc-ar-14.exe"
       - "C:/msys64/ucrt64/bin/gcc-ar-14"
@@ -6601,6 +6816,9 @@ events:
       - "C:/vcpkg/gcc-ar-14.com"
       - "C:/vcpkg/gcc-ar-14.exe"
       - "C:/vcpkg/gcc-ar-14"
+      - "C:/pgsql/bin/gcc-ar-14.com"
+      - "C:/pgsql/bin/gcc-ar-14.exe"
+      - "C:/pgsql/bin/gcc-ar-14"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ar14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ar14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ar14"
@@ -6682,6 +6900,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ar14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ar14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ar14"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ar14.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ar14.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ar14"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ar14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ar14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ar14"
@@ -6763,6 +6984,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ar14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ar14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ar14"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ar14.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ar14.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ar14"
       - "C:/msys64/ucrt64/bin/gcc-ar14.com"
       - "C:/msys64/ucrt64/bin/gcc-ar14.exe"
       - "C:/msys64/ucrt64/bin/gcc-ar14"
@@ -6844,6 +7068,9 @@ events:
       - "C:/vcpkg/gcc-ar14.com"
       - "C:/vcpkg/gcc-ar14.exe"
       - "C:/vcpkg/gcc-ar14"
+      - "C:/pgsql/bin/gcc-ar14.com"
+      - "C:/pgsql/bin/gcc-ar14.exe"
+      - "C:/pgsql/bin/gcc-ar14"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ar.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ar.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ar"
@@ -6925,6 +7152,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ar.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ar.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ar"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ar.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ar.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ar"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ar.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ar.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ar"
@@ -7006,6 +7236,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ar.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ar.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ar"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ar.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ar.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ar"
       - "C:/msys64/ucrt64/bin/gcc-ar.com"
     found: "C:/msys64/ucrt64/bin/gcc-ar.exe"
     search_context:
@@ -7045,6 +7278,7 @@ events:
         - "C:\\Users\\786\\AppData\\Roaming\\npm"
         - "C:/Program Files/nodejs/node_modules/npm/bin"
         - "C:\\vcpkg"
+        - "C:/pgsql/bin"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-mingw-dynamic/debug;C:/vcpkg/installed/x64-mingw-dynamic"
   -
     kind: "find-v1"
@@ -7096,6 +7330,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/usr/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -7123,6 +7358,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
       - "C:/Users/786/AppData/Local/Programs/Microsoft VS Code/"
@@ -7150,6 +7386,7 @@ events:
       - "C:/Users/786/AppData/Roaming/npm/"
       - "C:/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/"
+      - "C:/pgsql/bin/"
     searched_directories:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ranlib-14.2.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ranlib-14.2.exe"
@@ -7232,6 +7469,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ranlib-14.2.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ranlib-14.2.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ranlib-14.2"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ranlib-14.2.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ranlib-14.2.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ranlib-14.2"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ranlib-14.2.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ranlib-14.2.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ranlib-14.2"
@@ -7313,6 +7553,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ranlib-14.2.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ranlib-14.2.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ranlib-14.2"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ranlib-14.2.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ranlib-14.2.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ranlib-14.2"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14.2.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14.2.exe"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14.2"
@@ -7394,6 +7637,9 @@ events:
       - "C:/vcpkg/gcc-ranlib-14.2.com"
       - "C:/vcpkg/gcc-ranlib-14.2.exe"
       - "C:/vcpkg/gcc-ranlib-14.2"
+      - "C:/pgsql/bin/gcc-ranlib-14.2.com"
+      - "C:/pgsql/bin/gcc-ranlib-14.2.exe"
+      - "C:/pgsql/bin/gcc-ranlib-14.2"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ranlib-14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ranlib-14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ranlib-14"
@@ -7475,6 +7721,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ranlib-14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ranlib-14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ranlib-14"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ranlib-14.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ranlib-14.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ranlib-14"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ranlib-14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ranlib-14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ranlib-14"
@@ -7556,6 +7805,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ranlib-14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ranlib-14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ranlib-14"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ranlib-14.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ranlib-14.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ranlib-14"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14.exe"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14"
@@ -7637,6 +7889,9 @@ events:
       - "C:/vcpkg/gcc-ranlib-14.com"
       - "C:/vcpkg/gcc-ranlib-14.exe"
       - "C:/vcpkg/gcc-ranlib-14"
+      - "C:/pgsql/bin/gcc-ranlib-14.com"
+      - "C:/pgsql/bin/gcc-ranlib-14.exe"
+      - "C:/pgsql/bin/gcc-ranlib-14"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ranlib14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ranlib14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ranlib14"
@@ -7718,6 +7973,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ranlib14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ranlib14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ranlib14"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ranlib14.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ranlib14.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ranlib14"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ranlib14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ranlib14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ranlib14"
@@ -7799,6 +8057,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ranlib14.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ranlib14.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ranlib14"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ranlib14.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ranlib14.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ranlib14"
       - "C:/msys64/ucrt64/bin/gcc-ranlib14.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib14.exe"
       - "C:/msys64/ucrt64/bin/gcc-ranlib14"
@@ -7880,6 +8141,9 @@ events:
       - "C:/vcpkg/gcc-ranlib14.com"
       - "C:/vcpkg/gcc-ranlib14.exe"
       - "C:/vcpkg/gcc-ranlib14"
+      - "C:/pgsql/bin/gcc-ranlib14.com"
+      - "C:/pgsql/bin/gcc-ranlib14.exe"
+      - "C:/pgsql/bin/gcc-ranlib14"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ranlib.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ranlib.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/gcc-ranlib"
@@ -7961,6 +8225,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ranlib.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ranlib.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/gcc-ranlib"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ranlib.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ranlib.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/gcc-ranlib"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ranlib.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ranlib.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/gcc-ranlib"
@@ -8042,6 +8309,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ranlib.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ranlib.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/gcc-ranlib"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ranlib.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ranlib.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/gcc-ranlib"
       - "C:/msys64/ucrt64/bin/gcc-ranlib.com"
     found: "C:/msys64/ucrt64/bin/gcc-ranlib.exe"
     search_context:
@@ -8081,6 +8351,7 @@ events:
         - "C:\\Users\\786\\AppData\\Roaming\\npm"
         - "C:/Program Files/nodejs/node_modules/npm/bin"
         - "C:\\vcpkg"
+        - "C:/pgsql/bin"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-mingw-dynamic/debug;C:/vcpkg/installed/x64-mingw-dynamic"
   -
     kind: "find-v1"
@@ -8139,6 +8410,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/sbin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/"
@@ -8151,9 +8423,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/bin/"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/sbin/"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/bin/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/sbin/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/sbin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/"
@@ -8188,6 +8460,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/sbin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/"
@@ -8200,9 +8473,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/bin/"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/sbin/"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/bin/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/sbin/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/sbin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/"
@@ -8237,6 +8510,7 @@ events:
       - "C:/Users/786/AppData/Roaming/npm/"
       - "C:/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/"
+      - "C:/pgsql/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/ucrt64/sbin/"
       - "C:/msys64/ucrt64/"
@@ -8249,9 +8523,9 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Program Files (x86)/NexusCruncher/bin/"
-      - "C:/Program Files (x86)/NexusCruncher/sbin/"
-      - "C:/Program Files (x86)/NexusCruncher/"
+      - "C:/Program Files (x86)/NexusStreamCruncher/bin/"
+      - "C:/Program Files (x86)/NexusStreamCruncher/sbin/"
+      - "C:/Program Files (x86)/NexusStreamCruncher/"
     searched_directories:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/windres.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/windres.exe"
@@ -8355,6 +8629,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/windres.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/windres.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/windres"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/windres.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/windres.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/windres"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/windres.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/windres.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/windres"
@@ -8391,15 +8668,15 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/windres.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/windres.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/windres"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/bin/windres.com"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/bin/windres.exe"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/bin/windres"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/sbin/windres.com"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/sbin/windres.exe"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/sbin/windres"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/windres.com"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/windres.exe"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/windres"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/bin/windres.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/bin/windres.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/bin/windres"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/sbin/windres.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/sbin/windres.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/sbin/windres"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/windres.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/windres.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/windres"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/windres.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/windres.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/windres"
@@ -8502,6 +8779,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/windres.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/windres.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/windres"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/windres.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/windres.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/windres"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/windres.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/windres.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/windres"
@@ -8538,15 +8818,15 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/windres.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/windres.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/windres"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/bin/windres.com"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/bin/windres.exe"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/bin/windres"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/sbin/windres.com"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/sbin/windres.exe"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/sbin/windres"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/windres.com"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/windres.exe"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/windres"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/bin/windres.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/bin/windres.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/bin/windres"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/sbin/windres.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/sbin/windres.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/sbin/windres"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/windres.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/windres.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/windres"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/windres.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/windres.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/windres"
@@ -8607,13 +8887,14 @@ events:
         - "C:\\Users\\786\\AppData\\Roaming\\npm"
         - "C:/Program Files/nodejs/node_modules/npm/bin"
         - "C:\\vcpkg"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/NexusCruncher"
+        - "C:/pgsql/bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/NexusStreamCruncher"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/msys64/ucrt64"
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
-        - "C:/Program Files (x86)/NexusCruncher"
+        - "C:/Program Files (x86)/NexusStreamCruncher"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-mingw-dynamic/debug;C:/vcpkg/installed/x64-mingw-dynamic"
   -
     kind: "try_compile-v1"
@@ -8624,8 +8905,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-meyxab"
-      binary: "C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-meyxab"
+      source: "C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-eiiv94"
+      binary: "C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-eiiv94"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -8638,13 +8919,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-meyxab'
+        Change Dir: 'C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-eiiv94'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_787bb/fast
-        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_787bb.dir\\build.make CMakeFiles/cmTC_787bb.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-meyxab'
-        Building C object CMakeFiles/cmTC_787bb.dir/CMakeCCompilerABI.c.obj
-        C:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_787bb.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_bc681/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_bc681.dir\\build.make CMakeFiles/cmTC_bc681.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-eiiv94'
+        Building C object CMakeFiles/cmTC_bc681.dir/CMakeCCompilerABI.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_bc681.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe
         Target: x86_64-w64-mingw32
@@ -8652,8 +8933,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.0 (Rev2, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_787bb.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_787bb.dir\\'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_787bb.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\786\\AppData\\Local\\Temp\\ccgaM66c.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bc681.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_bc681.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_bc681.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\786\\AppData\\Local\\Temp\\ccLgGTLB.s
         GNU C17 (Rev2, Built by MSYS2 project) version 14.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -8672,14 +8953,14 @@ events:
          C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed
         End of search list.
         Compiler executable checksum: bfed5edf6a89cec0a35941200a765959
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_787bb.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_787bb.dir\\'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_787bb.dir\\CMakeCCompilerABI.c.obj C:\\Users\\786\\AppData\\Local\\Temp\\ccgaM66c.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bc681.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_bc681.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_bc681.dir\\CMakeCCompilerABI.c.obj C:\\Users\\786\\AppData\\Local\\Temp\\ccLgGTLB.s
         GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.43.1
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_787bb.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_787bb.dir\\CMakeCCompilerABI.c.'
-        Linking C executable cmTC_787bb.exe
-        "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_787bb.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bc681.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_bc681.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_bc681.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_bc681.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe
@@ -8690,16 +8971,16 @@ events:
         gcc version 14.2.0 (Rev2, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_787bb.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_787bb.'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\786\\AppData\\Local\\Temp\\ccW3fu3V.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_787bb.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_787bb.dir/objects.a --no-whole-archive --out-implib libcmTC_787bb.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bc681.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_bc681.'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\786\\AppData\\Local\\Temp\\cczamRE9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_bc681.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_bc681.dir/objects.a --no-whole-archive --out-implib libcmTC_bc681.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         collect2 version 14.2.0
-        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\786\\AppData\\Local\\Temp\\ccW3fu3V.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_787bb.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_787bb.dir/objects.a --no-whole-archive --out-implib libcmTC_787bb.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\786\\AppData\\Local\\Temp\\cczamRE9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_bc681.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_bc681.dir/objects.a --no-whole-archive --out-implib libcmTC_bc681.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         GNU ld (GNU Binutils) 2.43.1
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_787bb.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_787bb.'
-        "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_787bb.dir/objects.a
-        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_787bb.dir/objects.a @CMakeFiles\\cmTC_787bb.dir\\objects1.rsp
-        C:\\msys64\\ucrt64\\bin\\gcc.exe -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_787bb.dir/objects.a -Wl,--no-whole-archive -o cmTC_787bb.exe -Wl,--out-implib,libcmTC_787bb.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-meyxab'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bc681.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_bc681.'
+        "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_bc681.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_bc681.dir/objects.a @CMakeFiles\\cmTC_bc681.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_bc681.dir/objects.a -Wl,--no-whole-archive -o cmTC_bc681.exe -Wl,--out-implib,libcmTC_bc681.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-eiiv94'
         
       exitCode: 0
   -
@@ -8732,13 +9013,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-meyxab']
+        ignore line: [Change Dir: 'C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-eiiv94']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_787bb/fast]
-        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_787bb.dir\\build.make CMakeFiles/cmTC_787bb.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-meyxab']
-        ignore line: [Building C object CMakeFiles/cmTC_787bb.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [C:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_787bb.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_bc681/fast]
+        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_bc681.dir\\build.make CMakeFiles/cmTC_bc681.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-eiiv94']
+        ignore line: [Building C object CMakeFiles/cmTC_bc681.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_bc681.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -8746,8 +9027,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.0 (Rev2  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_787bb.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_787bb.dir\\']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_787bb.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\786\\AppData\\Local\\Temp\\ccgaM66c.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bc681.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_bc681.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_bc681.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\786\\AppData\\Local\\Temp\\ccLgGTLB.s]
         ignore line: [GNU C17 (Rev2  Built by MSYS2 project) version 14.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -8766,8 +9047,8 @@ events:
         ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: bfed5edf6a89cec0a35941200a765959]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_787bb.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_787bb.dir\\']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_787bb.dir\\CMakeCCompilerABI.c.obj C:\\Users\\786\\AppData\\Local\\Temp\\ccgaM66c.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bc681.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_bc681.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_bc681.dir\\CMakeCCompilerABI.c.obj C:\\Users\\786\\AppData\\Local\\Temp\\ccLgGTLB.s]
         ignore line: [GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.43.1]
         ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
@@ -8778,9 +9059,9 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_787bb.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_787bb.dir\\CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_787bb.exe]
-        ignore line: ["C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_787bb.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bc681.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_bc681.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_bc681.exe]
+        ignore line: ["C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_bc681.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe]
@@ -8798,13 +9079,13 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_787bb.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_787bb.']
-        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\786\\AppData\\Local\\Temp\\ccW3fu3V.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_787bb.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_787bb.dir/objects.a --no-whole-archive --out-implib libcmTC_787bb.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bc681.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_bc681.']
+        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\786\\AppData\\Local\\Temp\\cczamRE9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_bc681.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_bc681.dir/objects.a --no-whole-archive --out-implib libcmTC_bc681.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\786\\AppData\\Local\\Temp\\ccW3fu3V.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\786\\AppData\\Local\\Temp\\cczamRE9.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -8826,7 +9107,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_787bb.exe] ==> ignore
+          arg [cmTC_bc681.exe] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0]
@@ -8837,10 +9118,10 @@ events:
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_787bb.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_bc681.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_787bb.dll.a] ==> ignore
+          arg [libcmTC_bc681.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -8865,7 +9146,7 @@ events:
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
         ignore line: [collect2 version 14.2.0]
-        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\786\\AppData\\Local\\Temp\\ccW3fu3V.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_787bb.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_787bb.dir/objects.a --no-whole-archive --out-implib libcmTC_787bb.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\786\\AppData\\Local\\Temp\\cczamRE9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_bc681.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_bc681.dir/objects.a --no-whole-archive --out-implib libcmTC_bc681.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
         linker tool for 'C': C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [gcc_eh]
         remove lib [msvcrt]
@@ -8906,8 +9187,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-1u0uzj"
-      binary: "C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-1u0uzj"
+      source: "C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-3o7dac"
+      binary: "C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-3o7dac"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -8921,13 +9202,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-1u0uzj'
+        Change Dir: 'C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-3o7dac'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_956e1/fast
-        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_956e1.dir\\build.make CMakeFiles/cmTC_956e1.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-1u0uzj'
-        Building CXX object CMakeFiles/cmTC_956e1.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_956e1.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_57477/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_57477.dir\\build.make CMakeFiles/cmTC_57477.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-3o7dac'
+        Building CXX object CMakeFiles/cmTC_57477.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_57477.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe
         Target: x86_64-w64-mingw32
@@ -8935,8 +9216,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.0 (Rev2, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_956e1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_956e1.dir\\'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_956e1.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\786\\AppData\\Local\\Temp\\ccYPFl7B.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_57477.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_57477.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_57477.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\786\\AppData\\Local\\Temp\\ccpCEwxf.s
         GNU C++17 (Rev2, Built by MSYS2 project) version 14.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -8961,14 +9242,14 @@ events:
          C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed
         End of search list.
         Compiler executable checksum: 0ae76c501e8dc149b84d2c95ded0e2f3
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_956e1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_956e1.dir\\'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_956e1.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\786\\AppData\\Local\\Temp\\ccYPFl7B.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_57477.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_57477.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_57477.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\786\\AppData\\Local\\Temp\\ccpCEwxf.s
         GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.43.1
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_956e1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_956e1.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_956e1.exe
-        "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_956e1.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_57477.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_57477.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_57477.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_57477.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe
@@ -8979,16 +9260,16 @@ events:
         gcc version 14.2.0 (Rev2, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_956e1.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_956e1.'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\786\\AppData\\Local\\Temp\\ccR3kqCj.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_956e1.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_956e1.dir/objects.a --no-whole-archive --out-implib libcmTC_956e1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_57477.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_57477.'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\786\\AppData\\Local\\Temp\\ccVyrOxU.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_57477.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_57477.dir/objects.a --no-whole-archive --out-implib libcmTC_57477.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         collect2 version 14.2.0
-        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\786\\AppData\\Local\\Temp\\ccR3kqCj.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_956e1.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_956e1.dir/objects.a --no-whole-archive --out-implib libcmTC_956e1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\786\\AppData\\Local\\Temp\\ccVyrOxU.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_57477.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_57477.dir/objects.a --no-whole-archive --out-implib libcmTC_57477.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         GNU ld (GNU Binutils) 2.43.1
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_956e1.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_956e1.'
-        "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_956e1.dir/objects.a
-        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_956e1.dir/objects.a @CMakeFiles\\cmTC_956e1.dir\\objects1.rsp
-        C:\\msys64\\ucrt64\\bin\\g++.exe -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_956e1.dir/objects.a -Wl,--no-whole-archive -o cmTC_956e1.exe -Wl,--out-implib,libcmTC_956e1.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-1u0uzj'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_57477.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_57477.'
+        "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_57477.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_57477.dir/objects.a @CMakeFiles\\cmTC_57477.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\g++.exe -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_57477.dir/objects.a -Wl,--no-whole-archive -o cmTC_57477.exe -Wl,--out-implib,libcmTC_57477.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-3o7dac'
         
       exitCode: 0
   -
@@ -9027,13 +9308,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-1u0uzj']
+        ignore line: [Change Dir: 'C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-3o7dac']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_956e1/fast]
-        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_956e1.dir\\build.make CMakeFiles/cmTC_956e1.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-1u0uzj']
-        ignore line: [Building CXX object CMakeFiles/cmTC_956e1.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_956e1.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_57477/fast]
+        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_57477.dir\\build.make CMakeFiles/cmTC_57477.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/786/Desktop/Nexus-Stream/build/CMakeFiles/CMakeScratch/TryCompile-3o7dac']
+        ignore line: [Building CXX object CMakeFiles/cmTC_57477.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_57477.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -9041,8 +9322,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.0 (Rev2  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_956e1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_956e1.dir\\']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_956e1.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\786\\AppData\\Local\\Temp\\ccYPFl7B.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_57477.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_57477.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_57477.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\786\\AppData\\Local\\Temp\\ccpCEwxf.s]
         ignore line: [GNU C++17 (Rev2  Built by MSYS2 project) version 14.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -9067,8 +9348,8 @@ events:
         ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 0ae76c501e8dc149b84d2c95ded0e2f3]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_956e1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_956e1.dir\\']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_956e1.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\786\\AppData\\Local\\Temp\\ccYPFl7B.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_57477.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_57477.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_57477.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\786\\AppData\\Local\\Temp\\ccpCEwxf.s]
         ignore line: [GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.43.1]
         ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
@@ -9079,9 +9360,9 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_956e1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_956e1.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_956e1.exe]
-        ignore line: ["C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_956e1.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_57477.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_57477.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_57477.exe]
+        ignore line: ["C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_57477.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe]
@@ -9099,13 +9380,13 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_956e1.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_956e1.']
-        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\786\\AppData\\Local\\Temp\\ccR3kqCj.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_956e1.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_956e1.dir/objects.a --no-whole-archive --out-implib libcmTC_956e1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_57477.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_57477.']
+        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\786\\AppData\\Local\\Temp\\ccVyrOxU.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_57477.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_57477.dir/objects.a --no-whole-archive --out-implib libcmTC_57477.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\786\\AppData\\Local\\Temp\\ccR3kqCj.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\786\\AppData\\Local\\Temp\\ccVyrOxU.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -9127,7 +9408,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_956e1.exe] ==> ignore
+          arg [cmTC_57477.exe] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0]
@@ -9138,10 +9419,10 @@ events:
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_956e1.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_57477.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_956e1.dll.a] ==> ignore
+          arg [libcmTC_57477.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -9167,7 +9448,7 @@ events:
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
         ignore line: [collect2 version 14.2.0]
-        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\786\\AppData\\Local\\Temp\\ccR3kqCj.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_956e1.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_956e1.dir/objects.a --no-whole-archive --out-implib libcmTC_956e1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\786\\AppData\\Local\\Temp\\ccVyrOxU.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_57477.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_57477.dir/objects.a --no-whole-archive --out-implib libcmTC_57477.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
         linker tool for 'CXX': C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [msvcrt]
         remove lib [msvcrt]
@@ -9201,233 +9482,7 @@ events:
     kind: "find_package-v1"
     backtrace:
       - "C:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/share/redis++/redis++-config.cmake:31 (find_dependency)"
-      - "C:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
       - "CMakeLists.txt:7 (find_package)"
-    name: "hiredis"
-    configs:
-      -
-        filename: "hiredisConfig.cmake"
-        kind: "cmake"
-      -
-        filename: "hiredis-config.cmake"
-        kind: "cmake"
-    version_request:
-      exact: false
-    settings:
-      required: "required_explicit"
-      quiet: false
-      global: false
-      policy_scope: true
-      bypass_provider: false
-      names:
-        - "hiredis"
-      path_suffixes:
-        - ""
-      paths:
-        CMAKE_FIND_USE_CMAKE_PATH: true
-        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-        CMAKE_FIND_USE_INSTALL_PREFIX: true
-        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
-        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
-        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
-        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
-    candidates:
-      -
-        path: "C:/vcpkg/installed/x64-mingw-dynamic/debug/hiredisConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/vcpkg/installed/x64-mingw-dynamic/debug/hiredis-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/vcpkg/installed/x64-mingw-dynamic/debug/hiredisConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/vcpkg/installed/x64-mingw-dynamic/debug/hiredis-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/vcpkg/installed/x64-mingw-dynamic/hiredisConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/vcpkg/installed/x64-mingw-dynamic/hiredis-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/vcpkg/installed/x64-mingw-dynamic/share/hiredis/hiredisConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-    found:
-      path: "C:/vcpkg/installed/x64-mingw-dynamic/share/hiredis/hiredis-config.cmake"
-      mode: "config"
-      version: "1.3.0"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/vcpkg/installed/x64-mingw-dynamic/debug"
-        - "C:/vcpkg/installed/x64-mingw-dynamic"
-      ENV{PATH}:
-        - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\msys64\\usr\\bin"
-        - "C:/Users/786/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
-        - "C:/WINDOWS/system32"
-        - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/Docker/Docker/resources/bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/Program Files/Cloudflare/Cloudflare WARP/"
-        - "C:\\Program Files\\Git LFS"
-        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
-        - "C:/Users/786/AppData/Local/Programs/Python/Python313/Scripts/"
-        - "C:\\Users\\786\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:/Users/786/AppData/Local/Microsoft/WindowsApps"
-        - "C:\\Users\\786\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/msys64/ucrt64/bin"
-        - "D:\\Software\\Cachhe\\PyCharm 2025.2.4\\bin"
-        - "C:/Program Files/MongoDB/Server/8.0/bin"
-        - "C:\\Program Files\\mongosh\\"
-        - "C:/Users/786/AppData/Local/GitHubDesktop/bin"
-        - "C:\\Users\\786\\AppData\\Roaming\\npm"
-        - "C:/Program Files/nodejs/node_modules/npm/bin"
-        - "C:\\vcpkg"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/NexusCruncher"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/msys64/ucrt64"
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
-        - "C:/Program Files (x86)/NexusCruncher"
-      CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-mingw-dynamic/debug;C:/vcpkg/installed/x64-mingw-dynamic"
-  -
-    kind: "find_package-v1"
-    backtrace:
-      - "C:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:7 (find_package)"
-    name: "redis++"
-    configs:
-      -
-        filename: "redis++Config.cmake"
-        kind: "cmake"
-      -
-        filename: "redis++-config.cmake"
-        kind: "cmake"
-    version_request:
-      exact: false
-    settings:
-      required: "required_explicit"
-      quiet: false
-      global: false
-      policy_scope: true
-      bypass_provider: false
-      names:
-        - "redis++"
-      path_suffixes:
-        - ""
-      paths:
-        CMAKE_FIND_USE_CMAKE_PATH: true
-        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-        CMAKE_FIND_USE_INSTALL_PREFIX: true
-        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
-        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
-        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
-        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
-    candidates:
-      -
-        path: "C:/vcpkg/installed/x64-mingw-dynamic/debug/redis++Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/vcpkg/installed/x64-mingw-dynamic/debug/redis++-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/vcpkg/installed/x64-mingw-dynamic/debug/redis++Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/vcpkg/installed/x64-mingw-dynamic/debug/redis++-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/vcpkg/installed/x64-mingw-dynamic/redis++Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/vcpkg/installed/x64-mingw-dynamic/redis++-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/vcpkg/installed/x64-mingw-dynamic/share/redis++/redis++Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-    found:
-      path: "C:/vcpkg/installed/x64-mingw-dynamic/share/redis++/redis++-config.cmake"
-      mode: "config"
-      version: "1.3.15"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/vcpkg/installed/x64-mingw-dynamic/debug"
-        - "C:/vcpkg/installed/x64-mingw-dynamic"
-      ENV{PATH}:
-        - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\msys64\\usr\\bin"
-        - "C:/Users/786/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
-        - "C:/WINDOWS/system32"
-        - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/Docker/Docker/resources/bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/Program Files/Cloudflare/Cloudflare WARP/"
-        - "C:\\Program Files\\Git LFS"
-        - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
-        - "C:/Users/786/AppData/Local/Programs/Python/Python313/Scripts/"
-        - "C:\\Users\\786\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:/Users/786/AppData/Local/Microsoft/WindowsApps"
-        - "C:\\Users\\786\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/msys64/ucrt64/bin"
-        - "D:\\Software\\Cachhe\\PyCharm 2025.2.4\\bin"
-        - "C:/Program Files/MongoDB/Server/8.0/bin"
-        - "C:\\Program Files\\mongosh\\"
-        - "C:/Users/786/AppData/Local/GitHubDesktop/bin"
-        - "C:\\Users\\786\\AppData\\Roaming\\npm"
-        - "C:/Program Files/nodejs/node_modules/npm/bin"
-        - "C:\\vcpkg"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/NexusCruncher"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/msys64/ucrt64"
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
-        - "C:/Program Files (x86)/NexusCruncher"
-      CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-mingw-dynamic/debug;C:/vcpkg/installed/x64-mingw-dynamic"
-  -
-    kind: "find_package-v1"
-    backtrace:
-      - "C:/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:8 (find_package)"
     name: "nlohmann_json"
     configs:
       -
@@ -9522,20 +9577,21 @@ events:
         - "C:\\Users\\786\\AppData\\Roaming\\npm"
         - "C:/Program Files/nodejs/node_modules/npm/bin"
         - "C:\\vcpkg"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/NexusCruncher"
+        - "C:/pgsql/bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/NexusStreamCruncher"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/msys64/ucrt64"
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
-        - "C:/Program Files (x86)/NexusCruncher"
+        - "C:/Program Files (x86)/NexusStreamCruncher"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-mingw-dynamic/debug;C:/vcpkg/installed/x64-mingw-dynamic"
   -
     kind: "find-v1"
     backtrace:
       - "C:/vcpkg/scripts/buildsystems/vcpkg.cmake:188 (find_program)"
       - "C:/vcpkg/scripts/buildsystems/vcpkg.cmake:621 (z_vcpkg_set_powershell_path)"
-      - "CMakeLists.txt:10 (add_executable)"
+      - "CMakeLists.txt:19 (add_executable)"
     mode: "program"
     variable: "Z_VCPKG_PWSH_PATH"
     description: "Path to a program."
@@ -9584,6 +9640,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/sbin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/"
@@ -9596,9 +9653,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/bin/"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/sbin/"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/bin/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/sbin/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/sbin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/"
@@ -9633,6 +9690,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/sbin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/"
@@ -9645,9 +9703,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/bin/"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/sbin/"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/bin/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/sbin/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/sbin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/"
@@ -9682,6 +9740,7 @@ events:
       - "C:/Users/786/AppData/Roaming/npm/"
       - "C:/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/"
+      - "C:/pgsql/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/ucrt64/sbin/"
       - "C:/msys64/ucrt64/"
@@ -9694,9 +9753,9 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Program Files (x86)/NexusCruncher/bin/"
-      - "C:/Program Files (x86)/NexusCruncher/sbin/"
-      - "C:/Program Files (x86)/NexusCruncher/"
+      - "C:/Program Files (x86)/NexusStreamCruncher/bin/"
+      - "C:/Program Files (x86)/NexusStreamCruncher/sbin/"
+      - "C:/Program Files (x86)/NexusStreamCruncher/"
     searched_directories:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/pwsh.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/pwsh.exe"
@@ -9800,6 +9859,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/pwsh.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/pwsh.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/pwsh"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/pwsh.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/pwsh.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/pwsh"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/pwsh.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/pwsh.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/pwsh"
@@ -9836,15 +9898,15 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/pwsh.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/pwsh.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/pwsh"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/bin/pwsh.com"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/bin/pwsh.exe"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/bin/pwsh"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/sbin/pwsh.com"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/sbin/pwsh.exe"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/sbin/pwsh"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/pwsh.com"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/pwsh.exe"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/pwsh"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/bin/pwsh.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/bin/pwsh.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/bin/pwsh"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/sbin/pwsh.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/sbin/pwsh.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/sbin/pwsh"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/pwsh.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/pwsh.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/pwsh"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/pwsh.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/pwsh.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/pwsh"
@@ -9947,6 +10009,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/pwsh.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/pwsh.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/pwsh"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/pwsh.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/pwsh.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/pwsh"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/pwsh.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/pwsh.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/pwsh"
@@ -9983,15 +10048,15 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/pwsh.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/pwsh.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/pwsh"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/bin/pwsh.com"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/bin/pwsh.exe"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/bin/pwsh"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/sbin/pwsh.com"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/sbin/pwsh.exe"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/sbin/pwsh"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/pwsh.com"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/pwsh.exe"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/pwsh"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/bin/pwsh.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/bin/pwsh.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/bin/pwsh"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/sbin/pwsh.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/sbin/pwsh.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/sbin/pwsh"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/pwsh.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/pwsh.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/pwsh"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/pwsh.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/pwsh.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/pwsh"
@@ -10094,6 +10159,9 @@ events:
       - "C:/vcpkg/pwsh.com"
       - "C:/vcpkg/pwsh.exe"
       - "C:/vcpkg/pwsh"
+      - "C:/pgsql/bin/pwsh.com"
+      - "C:/pgsql/bin/pwsh.exe"
+      - "C:/pgsql/bin/pwsh"
       - "C:/msys64/ucrt64/bin/pwsh.com"
       - "C:/msys64/ucrt64/bin/pwsh.exe"
       - "C:/msys64/ucrt64/bin/pwsh"
@@ -10130,15 +10198,15 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/pwsh.com"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/pwsh.exe"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/pwsh"
-      - "C:/Program Files (x86)/NexusCruncher/bin/pwsh.com"
-      - "C:/Program Files (x86)/NexusCruncher/bin/pwsh.exe"
-      - "C:/Program Files (x86)/NexusCruncher/bin/pwsh"
-      - "C:/Program Files (x86)/NexusCruncher/sbin/pwsh.com"
-      - "C:/Program Files (x86)/NexusCruncher/sbin/pwsh.exe"
-      - "C:/Program Files (x86)/NexusCruncher/sbin/pwsh"
-      - "C:/Program Files (x86)/NexusCruncher/pwsh.com"
-      - "C:/Program Files (x86)/NexusCruncher/pwsh.exe"
-      - "C:/Program Files (x86)/NexusCruncher/pwsh"
+      - "C:/Program Files (x86)/NexusStreamCruncher/bin/pwsh.com"
+      - "C:/Program Files (x86)/NexusStreamCruncher/bin/pwsh.exe"
+      - "C:/Program Files (x86)/NexusStreamCruncher/bin/pwsh"
+      - "C:/Program Files (x86)/NexusStreamCruncher/sbin/pwsh.com"
+      - "C:/Program Files (x86)/NexusStreamCruncher/sbin/pwsh.exe"
+      - "C:/Program Files (x86)/NexusStreamCruncher/sbin/pwsh"
+      - "C:/Program Files (x86)/NexusStreamCruncher/pwsh.com"
+      - "C:/Program Files (x86)/NexusStreamCruncher/pwsh.exe"
+      - "C:/Program Files (x86)/NexusStreamCruncher/pwsh"
     found: false
     search_context:
       CMAKE_PROGRAM_PATH:
@@ -10177,20 +10245,21 @@ events:
         - "C:\\Users\\786\\AppData\\Roaming\\npm"
         - "C:/Program Files/nodejs/node_modules/npm/bin"
         - "C:\\vcpkg"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/NexusCruncher"
+        - "C:/pgsql/bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/NexusStreamCruncher"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/msys64/ucrt64"
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
-        - "C:/Program Files (x86)/NexusCruncher"
+        - "C:/Program Files (x86)/NexusStreamCruncher"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-mingw-dynamic/debug;C:/vcpkg/installed/x64-mingw-dynamic"
   -
     kind: "find-v1"
     backtrace:
       - "C:/vcpkg/scripts/buildsystems/vcpkg.cmake:193 (find_program)"
       - "C:/vcpkg/scripts/buildsystems/vcpkg.cmake:621 (z_vcpkg_set_powershell_path)"
-      - "CMakeLists.txt:10 (add_executable)"
+      - "CMakeLists.txt:19 (add_executable)"
     mode: "program"
     variable: "Z_VCPKG_BUILTIN_POWERSHELL_PATH"
     description: "Path to a program."
@@ -10239,6 +10308,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/sbin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/"
@@ -10251,9 +10321,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/bin/"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/sbin/"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/bin/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/sbin/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/sbin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/"
@@ -10288,6 +10358,7 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/Users/786/AppData/Roaming/npm/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/sbin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/"
@@ -10300,9 +10371,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/bin/"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/sbin/"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/bin/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/sbin/"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/sbin/"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/"
@@ -10337,6 +10408,7 @@ events:
       - "C:/Users/786/AppData/Roaming/npm/"
       - "C:/Program Files/nodejs/node_modules/npm/bin/"
       - "C:/vcpkg/"
+      - "C:/pgsql/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/ucrt64/sbin/"
       - "C:/msys64/ucrt64/"
@@ -10349,9 +10421,9 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
-      - "C:/Program Files (x86)/NexusCruncher/bin/"
-      - "C:/Program Files (x86)/NexusCruncher/sbin/"
-      - "C:/Program Files (x86)/NexusCruncher/"
+      - "C:/Program Files (x86)/NexusStreamCruncher/bin/"
+      - "C:/Program Files (x86)/NexusStreamCruncher/sbin/"
+      - "C:/Program Files (x86)/NexusStreamCruncher/"
     searched_directories:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/powershell.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/powershell.exe"
@@ -10455,6 +10527,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/powershell.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/powershell.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/vcpkg/powershell"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/powershell.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/powershell.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/pgsql/bin/powershell"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/powershell.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/powershell.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/msys64/ucrt64/bin/powershell"
@@ -10491,15 +10566,15 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/powershell.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/powershell.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/powershell"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/bin/powershell.com"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/bin/powershell.exe"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/bin/powershell"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/sbin/powershell.com"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/sbin/powershell.exe"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/sbin/powershell"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/powershell.com"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/powershell.exe"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusCruncher/powershell"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/bin/powershell.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/bin/powershell.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/bin/powershell"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/sbin/powershell.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/sbin/powershell.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/sbin/powershell"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/powershell.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/powershell.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/debug/Program Files (x86)/NexusStreamCruncher/powershell"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/powershell.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/powershell.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/powershell"
@@ -10602,6 +10677,9 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/powershell.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/powershell.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/vcpkg/powershell"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/powershell.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/powershell.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/pgsql/bin/powershell"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/powershell.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/powershell.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/msys64/ucrt64/bin/powershell"
@@ -10638,15 +10716,15 @@ events:
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/powershell.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/powershell.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/powershell"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/bin/powershell.com"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/bin/powershell.exe"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/bin/powershell"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/sbin/powershell.com"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/sbin/powershell.exe"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/sbin/powershell"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/powershell.com"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/powershell.exe"
-      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusCruncher/powershell"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/bin/powershell.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/bin/powershell.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/bin/powershell"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/sbin/powershell.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/sbin/powershell.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/sbin/powershell"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/powershell.com"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/powershell.exe"
+      - "C:/vcpkg/installed/x64-mingw-dynamic/Program Files (x86)/NexusStreamCruncher/powershell"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/powershell.com"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/powershell.exe"
       - "C:/vcpkg/installed/x64-mingw-dynamic/debug/bin/powershell"
@@ -10728,12 +10806,13 @@ events:
         - "C:\\Users\\786\\AppData\\Roaming\\npm"
         - "C:/Program Files/nodejs/node_modules/npm/bin"
         - "C:\\vcpkg"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/NexusCruncher"
+        - "C:/pgsql/bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/NexusStreamCruncher"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/msys64/ucrt64"
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
-        - "C:/Program Files (x86)/NexusCruncher"
+        - "C:/Program Files (x86)/NexusStreamCruncher"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-mingw-dynamic/debug;C:/vcpkg/installed/x64-mingw-dynamic"
 ...
