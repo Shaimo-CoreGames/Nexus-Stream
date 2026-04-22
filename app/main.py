@@ -12,6 +12,10 @@ from psycopg2.extras import RealDictCursor
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
+import logging
+import json
+
+
 tenant_cache = {} 
 CACHE_TTL = 60  # Cache valid for 60 seconds
 
@@ -91,7 +95,7 @@ async def track_event(
             else:
                 raise HTTPException(status_code=403, detail="Invalid Key")
         except Exception as e:
-            print(f"DB Error (Will use fallback if possible): {e}")
+            logger.error(f"DB Error (Will use fallback if possible): {e}")
             # FALLBACK: If DB fails but we are testing, don't crash the server
             # This allows the load test to continue even if the hostel wifi drops SSL
             tenant_info = {"id": 1, "external_id": "test-uuid"}
@@ -113,11 +117,13 @@ async def track_event(
     # 4. Push to Redis (Upstash)
     try:
         r.rpush("ingest_queue", json.dumps(event_packet))
+        # ADD THIS: Successful ingestion log
+        logger.info(f"Event ingested for tenant {tenant_info['id']}. Queue depth: {r.llen('ingest_queue')}")
     except Exception as e:
-        print(f"Redis Error: {e}")
+        logger.error(f"Redis Error: {e}")
         raise HTTPException(status_code=503, detail="Redis unreachable")
 
-    return {"status": "success", "depth": r.llen("ingest_queue")}
+    return {"status": "success"}
 
 # 1. Database Connection Helper
 def get_db_connection():
@@ -137,6 +143,8 @@ async def get_analytics(tenant_id: int):
         # RealDictCursor makes the data look like a Python Dictionary (JSON-ready)
         cur = conn.cursor(cursor_factory=RealDictCursor)
         
+        logger.info(f"Analytics requested for tenant: {tenant_id}")
+
         # We query the table that the C++ engine has been updating
         query = "SELECT tenant_id, total_events, last_updated FROM tenant_analytics WHERE tenant_id = %s"
         cur.execute(query, (tenant_id,))
@@ -152,5 +160,25 @@ async def get_analytics(tenant_id: int):
         return result
 
     except Exception as e:
-        print(f"Database Error: {e}")
+        logger.error(f"Database Read Error for tenant {tenant_id}: {e}")
         raise HTTPException(status_code=500, detail="Internal Server Error")
+
+
+class JsonFormatter(logging.Formatter):
+    def format(self, record):
+        log_record = {
+            "timestamp": self.formatTime(record),
+            "level": record.levelname,
+            "message": record.getMessage(),
+            "module": record.module
+        }
+        return json.dumps(log_record)
+
+logger = logging.getLogger("nexus_logger")
+handler = logging.StreamHandler()
+handler.setFormatter(JsonFormatter())
+logger.addHandler(handler)
+logger.setLevel(logging.INFO)
+
+# Example usage in your routes:
+# logger.info("Event tracked successfully")
