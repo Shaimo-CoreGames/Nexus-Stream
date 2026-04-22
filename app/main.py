@@ -51,10 +51,21 @@ def get_db():
     finally:
         db.close()
 
-@app.get("/")
-def health_check():
-    return {"status": "online", "engine": "Nexus-Stream"}
+@app.get("/health/services")
+async def health_services():
+    health = {"redis": "offline", "postgres": "offline"}
+    try:
+        if r.ping():
+            health["redis"] = "online"
+    except: pass
 
+    try:
+        conn = get_db_connection()
+        conn.close()
+        health["postgres"] = "online"
+    except: pass
+
+    return health
 
 # --- ADD THIS: Simple In-Memory Cache ---
 
