@@ -10,7 +10,7 @@ from fastapi import FastAPI, Depends, Request, HTTPException
 import psycopg2
 from psycopg2.extras import RealDictCursor
 from fastapi import FastAPI, HTTPException
-
+from fastapi.middleware.cors import CORSMiddleware
 
 tenant_cache = {} 
 CACHE_TTL = 60  # Cache valid for 60 seconds
@@ -34,6 +34,14 @@ r = redis.from_url(REDIS_URL, decode_responses=True)
 
 
 app = FastAPI(title="Nexus-Stream Ingestor")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"], # Allows your Dashboard to talk to the API
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Dependency to get DB session
 def get_db():
