@@ -6,6 +6,12 @@ from . import models, auth
 import redis
 import json,time
 from fastapi import FastAPI, Depends, Request, HTTPException
+
+import psycopg2
+from psycopg2.extras import RealDictCursor
+from fastapi import FastAPI, HTTPException
+
+
 tenant_cache = {} 
 CACHE_TTL = 60  # Cache valid for 60 seconds
 
@@ -93,3 +99,39 @@ async def track_event(
         raise HTTPException(status_code=503, detail="Redis unreachable")
 
     return {"status": "success", "depth": r.llen("ingest_queue")}
+
+# 1. Database Connection Helper
+def get_db_connection():
+    return psycopg2.connect(
+        host="127.0.0.1",
+        database="postgres",
+        user="postgres",
+        password="mysecret",
+        port="5432"
+    )
+
+# 2. The Analytics "Read" Endpoint
+@app.get("/analytics/{tenant_id}")
+async def get_analytics(tenant_id: int):
+    try:
+        conn = get_db_connection()
+        # RealDictCursor makes the data look like a Python Dictionary (JSON-ready)
+        cur = conn.cursor(cursor_factory=RealDictCursor)
+        
+        # We query the table that the C++ engine has been updating
+        query = "SELECT tenant_id, total_events, last_updated FROM tenant_analytics WHERE tenant_id = %s"
+        cur.execute(query, (tenant_id,))
+        
+        result = cur.fetchone()
+        
+        cur.close()
+        conn.close()
+
+        if not result:
+            raise HTTPException(status_code=404, detail="Tenant not found in analytics")
+
+        return result
+
+    except Exception as e:
+        print(f"Database Error: {e}")
+        raise HTTPException(status_code=500, detail="Internal Server Error")
