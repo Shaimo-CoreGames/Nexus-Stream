@@ -38,5 +38,9 @@ jobs:
 
     - name: Health Check Run
       run: |
-        export PYTHONPATH=$PYTHONPATH:.
-        python -c "from main import app; print('App imported successfully!')"
+        # 1. Tell Python that the 'app' folder contains our modules
+        export PYTHONPATH=$PYTHONPATH:$(pwd)/app
+        
+        # 2. Try to import from the app folder
+        # We use 'from app.main' because of your folder structure
+        python -c "from app.main import app as fastapi_app; print('App imported successfully from /app folder!')"
