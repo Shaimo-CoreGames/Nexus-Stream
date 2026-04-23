@@ -3,6 +3,9 @@
 #include <libpq-fe.h> // Core Postgres Header
 #include <iostream>
 #include <string>
+#include <unordered_map>
+#include <iterator>
+#include <cstdlib>
 
 using namespace sw::redis;
 using json = nlohmann::json;
@@ -41,11 +44,28 @@ int main()
 {
     try
     {
-        auto redis = Redis("tcp://127.0.0.1:6379");
+        // 1. Get environment variables for Docker networking
+        const char *redis_host_env = std::getenv("REDIS_HOST");
+        const char *db_host_env = std::getenv("DB_HOST");
+        const char *db_pass_env = std::getenv("POSTGRES_PASSWORD");
+        const char *db_user_env = std::getenv("POSTGRES_USER");
+        const char *db_name_env = std::getenv("POSTGRES_DB");
 
-        // Connect to Postgres
-        const char *conninfo = "host=127.0.0.1 port=5432 dbname=postgres user=postgres password=mysecret";
-        PGconn *pg_conn = PQconnectdb(conninfo);
+        // 2. Set defaults if environment variables are missing
+        std::string redis_host = redis_host_env ? redis_host_env : "127.0.0.1";
+        std::string db_host = db_host_env ? db_host_env : "127.0.0.1";
+        std::string db_pass = db_pass_env ? db_pass_env : "mysecret";
+        std::string db_user = db_user_env ? db_user_env : "postgres";
+        std::string db_name = db_name_env ? db_name_env : "postgres";
+
+        // 3. Construct connection strings
+        std::string redis_url = "tcp://" + redis_host + ":6379";
+        std::string conninfo = "host=" + db_host + " port=5432 dbname=" + db_name +
+                               " user=" + db_user + " password=" + db_pass;
+
+        // 4. Initialize Connections
+        auto redis = Redis(redis_url);
+        PGconn *pg_conn = PQconnectdb(conninfo.c_str());
 
         if (PQstatus(pg_conn) != CONNECTION_OK)
         {
@@ -64,11 +84,14 @@ int main()
                 json data = json::parse(item->second);
                 if (data.contains("tenant_id"))
                 {
+                    // Convert tenant_id to string for Redis Hash key
                     std::string t_id = std::to_string(data.value("tenant_id", 0));
+
+                    // Increment the counter in Redis
                     redis.hincrby("tenant_totals", t_id, 1);
                     processed_count++;
 
-                    // Sync every 5 events for testing
+                    // Sync to Postgres every 5 events
                     if (processed_count >= 5)
                     {
                         sync_to_postgres(redis, pg_conn);
@@ -77,11 +100,12 @@ int main()
                 }
             }
         }
+
         PQfinish(pg_conn);
     }
     catch (const std::exception &e)
     {
-        std::cerr << "Error: " << e.what() << std::endl;
+        std::cerr << "Fatal Error: " << e.what() << std::endl;
         return 1;
     }
     return 0;

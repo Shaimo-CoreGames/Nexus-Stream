@@ -1,0 +1,45 @@
+services:
+  # 1. The Database
+  db:
+    image: postgres:15
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
+
+  # 2. The Queue
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+
+  # 3. The Python API
+  api:
+    build: .
+    env_file: .env
+    ports:
+      - "8000:8000" # <--- ADD THIS LINE
+    depends_on:
+      - db
+      - redis
+
+  cruncher:
+    build:
+      context: ./cruncher
+      dockerfile: Dockerfile.cruncher
+    env_file: .env # <--- DON'T FORGET THIS
+    depends_on:
+      - db
+      - redis
+    restart: always
+
+  dashboard:
+    build:
+      context: ./dashboard
+    ports:
+      - "3000:3000"
+    env_file: .env
+    environment:
+      - DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB}
+    depends_on:
+      - db

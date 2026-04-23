@@ -1,0 +1,43 @@
+# Use a C++ build environment
+FROM gcc:latest
+
+# Install dependencies for Redis++ and Postgres
+RUN apt-get update && apt-get install -y \
+    libpq-dev \
+    libhiredis-dev \
+    cmake \
+    git \
+    curl
+
+# Clone and install redis-plus-plus
+RUN git clone https://github.com/sewenew/redis-plus-plus.git && \
+    cd redis-plus-plus && \
+    mkdir build && cd build && \
+    cmake .. && make && make install
+
+# --- ADD THIS SECTION HERE ---
+# Download the JSON library header
+RUN mkdir -p /usr/local/include/nlohmann && \
+    curl -L https://github.com/nlohmann/json/releases/download/v3.11.2/json.hpp \
+    -o /usr/local/include/nlohmann/json.hpp
+# ------------------------------
+
+# Set the working directory
+WORKDIR /app
+
+# Copy your C++ source code
+COPY main.cpp .
+
+# UPDATED COMPILE COMMAND:
+# We add -I/usr/include/postgresql so it finds libpq-fe.h
+RUN g++ -o cruncher main.cpp \
+    -I/usr/include/postgresql \
+    -lredis++ -lhiredis -lpq -pthread
+
+# --- ADD THIS LINE HERE ---
+# Refresh the linker cache so the system finds libredis++ at runtime
+RUN ldconfig
+# --------------------------
+
+# Run the cruncher
+CMD ["./cruncher"]
