@@ -64,6 +64,5 @@ http://localhost:8000/docs
 [![Docker Hub](https://img.shields.io/badge/Docker_Hub-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/u/shaimocoregames)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shaimo-CoreGames)
 
-Developed with ❤️ by shaimocoregames
-
 </div>
+Developed with ❤️ by shaimocoregames
