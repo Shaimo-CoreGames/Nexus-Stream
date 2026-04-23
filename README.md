@@ -32,10 +32,10 @@ POSTGRES_DB=postgres
 REDIS_HOST=redis
 API_KEY=nexus_secret_123
 ```
-###3. Launch the Stack
+### 3. Launch the Stack
 Bash
 `docker-compose up -d --build`
-###4. Database Initialization (Required)
+### 4. Database Initialization (Required)
 Because the database starts empty, you must initialize the analytics table:
 Bash
 ```
@@ -49,6 +49,10 @@ Bash
 
 Accessing the Dashboard
 Open your browser and navigate to:
-Dashboard: `http://localhost:3000`
-API Documentation (Swagger): `http://localhost:8000/docs`
-
+```
+Dashboard: http://localhost:3000
+```
+API Documentation (Swagger):
+```
+http://localhost:8000/docs
+```
