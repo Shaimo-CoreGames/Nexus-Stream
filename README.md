@@ -58,5 +58,12 @@ API Documentation (Swagger):
 http://localhost:8000/docs
 ```
 ---
+<div align="center">
 
-## 🔗 Connect & LinksPlatformLinkGitHubgithub.com/Shaimo-CoreGamesDocker Hubhub.docker.com/u/shaimocoregamesLinkedInShah Meer - Professional Profile
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shah-meer)
+[![Docker Hub](https://img.shields.io/badge/Docker_Hub-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/u/shaimocoregames)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shaimo-CoreGames)
+
+Developed with ❤️ by shaimocoregames
+
+</div>
