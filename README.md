@@ -45,8 +45,9 @@ docker exec -it nexus-stream-db-1 psql -U postgres -d postgres -c "CREATE TABLE 
 Putting Load (Stress Test)
 You can use the provided Python script to flood the system with events and watch the C++ cruncher handle the load:
 Bash
-`python tests/load_test.py`
-
+```
+python tests/load_test.py
+```
 Accessing the Dashboard
 Open your browser and navigate to:
 ```
@@ -56,3 +57,6 @@ API Documentation (Swagger):
 ```
 http://localhost:8000/docs
 ```
+---
+
+## 🔗 Connect & LinksPlatformLinkGitHubgithub.com/Shaimo-CoreGamesDocker Hubhub.docker.com/u/shaimocoregamesLinkedInShah Meer - Professional Profile
